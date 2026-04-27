@@ -6,6 +6,11 @@ __pycache__/
 # pytest
 .pytest_cache/
 
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+anaconda_projects/
+
 # macOS
 .DS_Store
 
