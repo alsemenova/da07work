@@ -25,3 +25,6 @@ Semenova,Elena-UserProfile.zip
 venv/
 env/
 .venv/
+
+# Local session file
+localhost.session.sql
