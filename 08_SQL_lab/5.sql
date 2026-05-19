@@ -1,4 +1,4 @@
--- 08_SQL_lab/5.sql: Топ-3 клиента по суммарным продажам.
+-- 08_SQL_lab/5.sql: Top 3 customers by total sales.
 SELECT Customers.CustomerName,
     SUM(Orders.Total) AS TotalSales
 FROM Orders

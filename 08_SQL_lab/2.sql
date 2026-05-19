@@ -1,4 +1,4 @@
--- 08_SQL_lab/2.sql: Наиболее продаваемый продукт по количеству заказанных штук.
+-- 08_SQL_lab/2.sql: The best-selling product by total quantity ordered.
 SELECT Products.ProductName,
     SUM(Orders.Quantity) AS TotalQuantity
 FROM Orders

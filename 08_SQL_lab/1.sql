@@ -1,4 +1,4 @@
--- 08_SQL_lab/1.sql: Общая сумма продаж по каждому клиенту.
+-- 08_SQL_lab/1.sql: Total sales amount for each customer.
 SELECT Customers.CustomerName,
     SUM(Orders.Total) AS TotalSales
 FROM Orders

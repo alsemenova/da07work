@@ -1,4 +1,4 @@
--- 08_SQL_lab/table_creation.sql: Создание таблиц Products, Customers и Orders с начальными данными.
+-- 08_SQL_lab/table_creation.sql: Create Products, Customers, and Orders tables with initial data.
 -- Create the Products table
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY,

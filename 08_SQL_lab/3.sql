@@ -1,4 +1,4 @@
--- 08_SQL_lab/3.sql: Общий доход по каждому продукту.
+-- 08_SQL_lab/3.sql: Total revenue for each product.
 SELECT Products.ProductName,
     SUM(Orders.Total) AS TotalRevenue
 FROM Orders
